@@ -1,6 +1,44 @@
 /* Native Elements */
+body{
+    font-family: sans-serif;
+}
 
 
 
 
 /* Custom Classes */
+
+
+
+
+/* nav bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    width: 100%; 
+  }
+  
+/* links */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+/*  */
+  .navbar a:hover, .navbar a:focus {
+    background: #ddd;
+    color: black;
+  }
+  
+/* Main content */
+  .main-body {
+    margin-top: 30px;
+    background-color: rgb(10, 7, 19); 
+  }
