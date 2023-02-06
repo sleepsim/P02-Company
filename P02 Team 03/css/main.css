@@ -1,6 +1,7 @@
 /* Native Elements */
 body{
     font-family: sans-serif;
+    background-color: rgb(20, 17, 29); 
 }
 
 
@@ -14,7 +15,7 @@ body{
 /* nav bar */
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(10, 7, 19);
     position: fixed; 
     top: 0; 
     left: 0;
@@ -25,7 +26,7 @@ body{
   .navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: yellow;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,7 +34,7 @@ body{
   
 /*  */
   .navbar a:hover, .navbar a:focus {
-    background: #ddd;
+    background: yellow;
     color: black;
   }
   
@@ -42,3 +43,5 @@ body{
     margin-top: 30px;
     background-color: rgb(10, 7, 19); 
   }
+
+  
