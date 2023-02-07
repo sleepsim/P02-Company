@@ -60,6 +60,10 @@ code{
   width: 90%;
 }
 
+input{
+  accent-color: var(--yellow-accent);
+}
+
 /* Custom Classes */
 
 
