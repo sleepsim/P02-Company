@@ -11,5 +11,11 @@
          url('../fonts/neon-desmon-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
 
+@font-face {
+    font-family: 'comfortaa';
+    src: url('../fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
