@@ -46,6 +46,9 @@ a{
 
 a:hover, a:focus{
   color: var(--pink-accent);
+  text-shadow: 0 0 20px var(--pink-accent),
+              0 0 30px var(--pink-accent),
+              0 0 40px var(--pink-accent); 
 }
 
 code{
