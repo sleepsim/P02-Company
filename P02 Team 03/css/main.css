@@ -1,4 +1,7 @@
 /* Native Elements */
+
+/* From https://www.webprocomponents.com/neon-desmon-neon-light-font */
+/* Converted with https://www.fontsquirrel.com/tools/webfont-generator */
 @font-face {
   font-family: 'neondesmonregular';
   src: url('neon-desmon-webfont.woff2') format('woff2'),
@@ -11,6 +14,7 @@
 body{
     font-family: sans-serif;
     background-color: rgb(20, 17, 29); 
+    font-family: 'neondesmonregular', Arial, sans-serif;
 }
 
 
@@ -31,6 +35,7 @@ body{
     height: 4rem;
     width: 100%; 
     padding: 2rem;
+    font-family: 'neondesmonregular', Arial, sans-serif;
   }
   
 /* links */
@@ -52,6 +57,7 @@ body{
 /* Main content */
   .main-body {
     margin-top: 10rem;
+    padding-left: 2rem;
     background-color: white; 
     font: white;
   }
