@@ -170,4 +170,8 @@ code{
   color: var(--pink-accent);
 }
 
+.input-text{
+  background-color: rgb(70,57,79);
+  color: white;
+}
 
