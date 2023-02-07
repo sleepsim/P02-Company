@@ -24,10 +24,14 @@
         <div class="top-border">
             <h1>Glow-in-the-Dough Style Guide</h1>
         </div>
-        <div class="bottom-border-alt"></div>
+
 
         <section id="brand_identity">
-            <h2>Brand Identity</h2><br>
+
+            <div class="border-yellow">
+                <h2>Brand Identity</h2>
+                <div class="border-yellow"></div><br>
+            </div>
 
             <!-- Company Profile -->
             <h3>Company Profile</h2>
@@ -68,9 +72,61 @@
 
         <!-- Interactive Elements -->
         <section id="interactive_elements">
-            <h2>Interactive Elements</h2>
+            <div class="border-yellow">
+                <h2>INTERACTIVE ELEMENTS</h2>
+                <div class="border-yellow"></div><br>
+            </div>
 
+            <!-- In Text Link -->
+            <h3>In text link</h3>
+            <div class="flex-container">
 
+                <!-- Description -->
+                <div class="flex-item">
+                    <h4>HTML Element</h4>
+                    <p>&lt;a&gt;&lt;/a&gt;</p>
+                    <code>&lt;a href=&quot;interactive_elements&quot;&gt;<br>This is an in-text link for the website, it uses the Yellow accent colour and changes to the pink accent colour once hovered<br>&lt;/a&gt;</code>
+                </div>
+
+                <!-- Render -->
+                <div class="flex-item">
+                    <div class="top-border">
+                        <a href="interactive_elements">This is an in-text link for the website, it uses the Yellow accent colour and changes to the pink accent colour once hovered</a>
+                    </div>
+                    <div class="bottom-border"></div>
+                </div>
+            </div>
+
+            <!-- Navigation Button -->
+            <h3>Navigation Link</h3>
+            <div class="flex-container">
+                
+                <!-- Description -->
+                <div class="flex-item">
+                    <h4>CSS Selector</h4>
+                    <p>.navbar a</p>
+                    <code>
+                        &lt;div class=&quot;navbar&quot;&gt;<br>
+                        &lt;a href=&quot;&quot;&gt;LINK 1&lt;/a&gt;<br>
+                        &lt;a href=&quot;#news&quot;&gt;LINK 2&lt;/a&gt;<br>
+                        &lt;a href=&quot;#contact&quot;&gt;LINK 3&lt;/a&gt;<br>
+                        &lt;/div&gt;
+                    </code>
+                </div>
+
+                <!-- Render -->
+                <div class="flex-item">
+                    <div class="top-border">
+                        <a href="#interactive_elements" class="nav-example">NAVIGATION LINK 1</a>
+                        <a href="#interactive_elements" class="nav-example">NAVIGATION LINK 2</a>
+                        <a href="#interactive_elements" class="nav-example">NAVIGATION LINK 3</a>
+                    </div>
+                    <div class="bottom-border"></div>
+                </div>
+            </div>
+
+            <!-- Submit/Reset Button -->
+            
 
         </section>
 
