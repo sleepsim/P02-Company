@@ -22,14 +22,29 @@ section{
   margin-top: 3rem;
 }
 
-h1 {
+h1{
   font-size: 3rem;
 }
 
-h2 {
+h2{
   font-size: 1.5rem;
 }
 
+a{
+  color: var(--yellow-accent);
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+a:hover, a:focus{
+  color: var(--pink-accent);
+}
+
+code{
+  background-color: rgb(70,57,79);
+  padding: 0.5rem;
+  display: block;
+}
 
 /* Custom Classes */
 
@@ -89,5 +104,12 @@ h2 {
   width: 15rem;
 }
 
+
+
+/* DELETE THIS AFTER */
+.placeholder-img{
+  height:15rem;
+  width: 25rem;
+}
 
 

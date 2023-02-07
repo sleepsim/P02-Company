@@ -1,3 +1,5 @@
+/* Borders */
+
 .top-border{
     position: relative;
     border-left: 0.5rem var(--yellow-accent) solid;
@@ -7,12 +9,20 @@
     border-radius: 2rem 0 0 0 ;
 }
 
+.bottom-border{
+    position: relative;
+    border-right: 0.3rem var(--pink-accent) solid;
+    border-bottom: 0.3rem var(--pink-accent) solid;
+    padding-top: 1.5rem;
+    border-radius: 0 0 2rem 0;
+}
+
 .left-border{
     position: relative;
     border-left: 0.5rem var(--yellow-accent) solid;
 }
 
-.bottom-border-teal{
+.bottom-border-pink{
     margin-top: 2rem;
     padding-top: 0.1rem;
     padding-left: 0rem;
@@ -21,10 +31,26 @@
     border-top-color: var(--pink-accent);
 }
 
-.bottom-border-teal2{
+.bottom-border-yellow{
     padding-top: 0.1rem;
     padding-left: 0rem;
     border-top-width: 0.3rem;
     border-top-style: solid;
-    border-top-color: var(--teal-accent);
+    border-top-color: var(--yellow-accent);
 }
+
+
+/* Flex box */
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.flex-item{
+    flex: 1;
+}
+
