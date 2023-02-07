@@ -6,12 +6,20 @@
   --bg-color: rgb(20, 17, 29);
   --yellow-accent: rgb(255,255,0);
   --teal-accent: rgb(0,234,234);
+  --pink-accent: rgb(255,16,240);
 }
 
 body{
     font-family: sans-serif;
     background-color: var(--bg-color); 
+}
 
+div{
+  padding-left: 1rem;
+}
+
+section{
+  margin-top: 3rem;
 }
 
 h1 {
@@ -30,6 +38,7 @@ h2 {
 
 /* nav bar */
 .navbar {
+    z-index: 9999;
     overflow: hidden;
     background-color: var(--nav-color);
     position: fixed; 
@@ -44,37 +53,41 @@ h2 {
   }
   
 /* links */
-  .navbar a {
-    float: left;
-    display: block;
-    color: #00EAEA;
-    text-align: center;
-    font-size: larger;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-shadow: 0 0 20px var(--teal-accent),
-                0 0 30px var(--teal-accent),
-                0 0 40px var(--teal-accent); 
-    /* Generated with https://unused-css.com/tools/text-shadow-generator?p=21AwAlCZgBwDxBiA7AM2MZyA0pQGZpzwCcAHLgIwbZggAsBCAhgMYCsRGQA */
-  }
-  
-/* links interactivity */
-  .navbar a:hover, .navbar a:focus {
-    color: yellow;
-    text-shadow: 0 0 20px var(--yellow-accent),
-                0 0 30px var(--yellow-accent),
-                0 0 40px var(--yellow-accent); 
-  }
-  
-/* Main content */
-  .main-body {
-    margin-top: 10rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
-    color: lightgray;
-    font-family: 'comfortaa';
-  }
+.navbar a {
+  float: left;
+  display: block;
+  color: var(--yellow-accent);
+  text-align: center;
+  font-size: 1.5REM;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: 0 0 20px var(--yellow-accent),
+              0 0 30px var(--yellow-accent),
+              0 0 40px var(--yellow-accent); 
+  /* Generated with https://unused-css.com/tools/text-shadow-generator?p=21AwAlCZgBwDxBiA7AM2MZyA0pQGZpzwCcAHLgIwbZggAsBCAhgMYCsRGQA */
+}
 
-  
+/* links interactivity */
+.navbar a:hover, .navbar a:focus {
+  color: var(--teal-accent);
+  text-shadow: 0 0 20px var(--teal-accent),
+              0 0 30px var(--teal-accent),
+              0 0 40px var(--teal-accent); 
+}
+
+/* Main content */
+.main-body {
+  margin-top: 10rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  color: lightgray;
+  font-family: 'comfortaa';
+}
+
+.color-box{
+  height: 2rem;
+  width: 15rem;
+}
+
 
 

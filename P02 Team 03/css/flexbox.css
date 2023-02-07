@@ -1,0 +1,30 @@
+.top-border{
+    position: relative;
+    border-left: 0.5rem var(--yellow-accent) solid;
+    border-top: 0.5rem var(--yellow-accent)  solid;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    border-radius: 2rem 0 0 0 ;
+}
+
+.left-border{
+    position: relative;
+    border-left: 0.5rem var(--yellow-accent) solid;
+}
+
+.bottom-border-teal{
+    margin-top: 2rem;
+    padding-top: 0.1rem;
+    padding-left: 0rem;
+    border-top-width: 0.15rem;
+    border-top-style: solid;
+    border-top-color: var(--pink-accent);
+}
+
+.bottom-border-teal2{
+    padding-top: 0.1rem;
+    padding-left: 0rem;
+    border-top-width: 0.3rem;
+    border-top-style: solid;
+    border-top-color: var(--teal-accent);
+}
