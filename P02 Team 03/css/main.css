@@ -1,4 +1,13 @@
 /* Native Elements */
+@font-face {
+  font-family: 'neondesmonregular';
+  src: url('neon-desmon-webfont.woff2') format('woff2'),
+       url('neon-desmon-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body{
     font-family: sans-serif;
     background-color: rgb(20, 17, 29); 
@@ -19,7 +28,9 @@ body{
     position: fixed; 
     top: 0; 
     left: 0;
+    height: 4rem;
     width: 100%; 
+    padding: 2rem;
   }
   
 /* links */
@@ -40,8 +51,9 @@ body{
   
 /* Main content */
   .main-body {
-    margin-top: 30px;
-    background-color: rgb(10, 7, 19); 
+    margin-top: 10rem;
+    background-color: white; 
+    font: white;
   }
 
-  
+
