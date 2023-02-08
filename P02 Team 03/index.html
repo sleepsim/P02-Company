@@ -21,17 +21,21 @@
 
     <!-- Main Content -->
     <div class="main-body">
-        <div class="bottom-border-yellow">
+        <div class="top-border">
             <h1>Glow-in-the-Dough Style Guide</h1>
         </div>
-        <div class="bottom-border-yellow"></div>
+
 
         <section id="brand_identity">
-            <h2>Brand Identity</h2><br>
+
+            <div class="border-yellow">
+                <h2>Brand Identity</h2>
+                <div class="border-yellow"></div><br>
+            </div>
 
             <!-- Company Profile -->
             <h3>Company Profile</h2>
-            <p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
+            <p>The story of Glow In The Dough begins on the brick laid streets of Vancouver’s famous Gastown. It is here that Glow In The Dough opened its doors, offering hot pies and refreshing drinks. The origin of our name comes from our love for fun, vibrant neon signs, and dedication to fresh ingredients and delicious pies. We believe that communities come together when sharing a meal. That is why we’ve created an environment for the community to grow every day.  </p>
 
             <div class="bottom-border-pink"></div>
 
@@ -46,7 +50,7 @@
             <div class="left-border">
                 <p style="font-family: 'neon-desmon'; font-weight: bolder; font-size: 2REM; text-shadow: 0 0 20px var(--yellow-accent),
                 0 0 30px var(--yellow-accent),
-                0 0 40px var(--yellow-accent); ">THIS IS THE NEON DESMON FONT, USED FOR THE NAVIGATION BAR</p>
+                0 0 40px var(--yellow-accent); color: var(--yellow-accent); ">THIS IS THE NEON DESMON FONT, USED FOR THE NAVIGATION BAR</p>
             </div>
             <h3>Font 2 - Comfortaa</h3>
             <div class="left-border">
@@ -68,9 +72,169 @@
 
         <!-- Interactive Elements -->
         <section id="interactive_elements">
-            <h2>Interactive Elements</h2>
+            <div class="border-yellow">
+                <h2>INTERACTIVE ELEMENTS</h2>
+                <div class="border-yellow"></div><br>
+            </div>
 
+            <!-- In Text Link -->
+            <h3>In text link</h3>
+            <div class="flex-container">
 
+                <!-- Description -->
+                <div class="flex-item">
+                    <h4>HTML Element</h4>
+                    <p>&lt;a&gt;&lt;/a&gt;</p>
+                    <code>&lt;a href=&quot;interactive_elements&quot;&gt;<br>This is an in-text link for the website, it uses the Yellow accent colour and changes to the pink accent colour once hovered<br>&lt;/a&gt;</code>
+                </div>
+
+                <!-- Render -->
+                <div class="flex-item">
+                    <div class="top-border">
+                        <h4>Rendered Element</h4>
+                        <a href="interactive_elements">This is an in-text link for the website, it uses the Yellow accent colour and changes to the pink accent colour once hovered</a>
+                    </div>
+                    <div class="bottom-border"></div>
+                </div>
+            </div>
+
+            <!-- Navigation Button -->
+            <h3>Navigation Link</h3>
+            <div class="flex-container">
+                
+                <!-- Description -->
+                <div class="flex-item">
+                    <h4>CSS Selector</h4>
+                    <p>.navbar a</p>
+                    <code>
+                        &lt;div class=&quot;navbar&quot;&gt;<br>
+                        &lt;a href=&quot;&quot;&gt;LINK 1&lt;/a&gt;<br>
+                        &lt;a href=&quot;#news&quot;&gt;LINK 2&lt;/a&gt;<br>
+                        &lt;a href=&quot;#contact&quot;&gt;LINK 3&lt;/a&gt;<br>
+                        &lt;/div&gt;
+                    </code>
+                </div>
+
+                <!-- Render -->
+                <div class="flex-item">
+                    <div class="top-border">
+                        <h4>Rendered Element</h4>
+                        <a href="#interactive_elements" class="nav-example">NAVIGATION LINK 1</a><br>
+                        <a href="#interactive_elements" class="nav-example">NAVIGATION LINK 2</a><br>
+                        <a href="#interactive_elements" class="nav-example">NAVIGATION LINK 3</a><br>
+                    </div>
+                    <div class="bottom-border"></div>
+                </div>
+            </div>
+
+            <!-- Submit/Reset Button -->
+            <h3>Submit/Reset Button</h3>
+            <div class="flex-container">
+                
+                <!-- Description -->
+                <div class="flex-item">
+                    <h4>CSS Selector</h4>
+                    <p>.button-yellow</p>
+                    <p>.button-pink</p>
+                    <code>
+                        &lt;input type=&quot;submit&quot; class=&quot;button-yellow&quot;&gt;<br>
+                        &lt;input type=&quot;reset&quot; class=&quot;button-pink&quot;&gt;
+                    </code>
+                </div>
+
+                <!-- Render -->
+                <div class="flex-item">
+                    <div class="top-border">
+                        <h4>Rendered Element</h4>
+                        <input type="submit" class="button-yellow">
+                        <input type="reset" class="button-pink">
+                    </div>
+                    <div class="bottom-border"></div>
+                </div>
+            </div>
+
+            <!-- Text Input Field -->
+            <h3>Text Input Field</h3>
+            <div class="flex-container">
+
+                <!-- Description -->
+                <div class="flex-item">
+                    <h4>CSS Selector</h4>
+                    <p>.input-text</p>
+                    <code>
+                        &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;&lt;br&gt;<br>
+                        &lt;input type=&quot;text&quot; id=&quot;emailexample&quot; name=&quot;emailexample&quot; class=&quot;input-text&quot;&gt;<br>
+                    </code>
+                </div>
+
+                <!-- Render -->
+                <div class="flex-item">
+                    <div class="top-border">
+                        <h4>Rendered Element</h4>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="emailexample" name="emailexample" class="input-text">
+                    </div>
+                    <div class="bottom-border"></div>
+                </div>
+            </div>
+
+            <!-- Radio Button with Label -->
+            <h3>Radio Button with Label</h3>
+            <div class="flex-container">
+
+                <!-- Description -->
+                <div class="flex-item">
+                    <h4>CSS Selector</h4>
+                    <p>test</p>
+                    <code>
+                        &lt;label&gt;Toppings&lt;/label&gt;&lt;br&gt;<br>
+                        &lt;input type=&quot;radio&quot; id=&quot;cheese&quot; name=&quot;radioexample&quot; value=&quot;Cheese&quot;&gt;<br>
+                        &lt;label for=&quot;cheese&quot;&gt;Cheese&lt;/label&gt;&lt;br&gt;<br>
+                        &lt;input type=&quot;radio&quot; id=&quot;pep&quot; name=&quot;radioexample&quot; value=&quot;Pepperoni&quot;&gt;<br>
+                        &lt;label for=&quot;cheese&quot;&gt;Pepperoni&lt;/label&gt;&lt;br&gt;<br>
+                        &lt;input type=&quot;radio&quot; id=&quot;saug&quot; name=&quot;radioexample&quot; value=&quot;Sausage&quot;&gt;<br>
+                        &lt;label for=&quot;cheese&quot;&gt;Sausage&lt;/label&gt;&lt;br&gt;<br>
+                    </code>
+                </div>
+
+                <!-- Render -->
+                <div class="flex-item">
+                    <div class="top-border">
+                        <h4>Rendered Element</h4>
+                        <label>Toppings</label><br><br>
+                        <input type="radio" id="cheese" name="radioexample" value="Cheese">
+                        <label for="cheese">Cheese</label><br>
+                        <input type="radio" id="pep" name="radioexample" value="Pepperoni">
+                        <label for="cheese">Pepperoni</label><br>
+                        <input type="radio" id="saug" name="radioexample" value="Sausage">
+                        <label for="cheese">Sausage</label><br>
+                    </div>
+                    <div class="bottom-border"></div>
+                </div>
+            </div>
+
+            <!-- Image as link -->
+            <h3>Image as link</h3>
+            <div class="flex-container">
+
+                <!-- Description -->
+                <div class="flex-item">
+                    <h4>CSS Selector</h4>
+                    <p>test</p>
+                    <code>
+                        &lt;a href="#"&gt;&lt;img src="placeholder-img" alt="random image."&gt;&lt;a&gt; 
+                    </code>
+                </div>
+
+                <!-- Render -->
+                <div class="flex-item">
+                    <div class="top-border">
+                        <h4>Rendered Element</h4>
+                        <a href="#"><img src="placeholder-img" alt="random image."/></a>
+                    </div>
+                    <div class="bottom-border"></div>
+                </div>
+            </div>
 
         </section>
 
@@ -83,26 +247,68 @@
         <section id="combined_elements">
 
             <!-- Sample Format -->
-            <h2>Sample Heading</h2>
+            <h3>Sample Heading</h2>
             <div class="flex-container">
 
                 <!-- Description -->
                 <div class="flex-item">
-                    <h3>CSS Selector</h3>
+                    <h4>CSS Selector</h4>
                     <p>Lorem Ipsum</p>
-                    <h3>Sample Code</h3>
-                    <code>Lorem Ipsum code<br>
-                    Lorem ipsum Code</code>
+                    <h4>Sample Code</h4>
+                    <code>
+                        &lt;h1&gt;Heading 1&lt;h1&gt; 
+                        <br>
+                        &lt;h2&gt;Heading 2&lt;h2&gt;
+                        <br>
+                        &lt;h3&gt;Heading 3&lt;h3&gt;
+                        <br>
+                        &lt;h4&gt;Heading 4&lt;h4&gt;
+                        <br>
+                        &lt;h5&gt;Heading 5&lt;h5&gt;
+                        <br>
+                        &lt;h6&gt;Heading 6&lt;h6&gt;
+                    </code>
                 </div>
 
                 <!-- Render -->
                 <div class="flex-item">
                     <div class="top-border">
-                        <a href>The rendered item goes here</a>
+                        <h4 href>The rendered item goes here</h4>
+                        <h1>Heading 1</h1>
+                        <h2>Heading 2</h2>
+                        <h3>Heading 3</h3>
+                        <h4>Heading 4</h4>
+                        <h5>Heading 5</h5>
+                        <h6>Heading 6</h6>
                     </div>
                     <div class="bottom-border"></div>
                 </div>
             </div>
+            
+            <h3>Checkout Cart</h2>
+                <div class="flex-container">
+    
+                    <!-- Description -->
+                    <div class="flex-item">
+                        <h4>CSS Selector</h4>
+                        <p>Lorem Ipsum</p>
+                        <h4>Sample Code</h4>
+                        <code>
+
+                        </code>
+                    </div>
+    
+                    <!-- Render -->
+                    <div class="flex-item">
+                        <div class="top-border">
+                            <h4 href>The rendered item goes here</h4>
+
+                        </div>
+                        <div class="bottom-border"></div>
+                    </div>
+                </div>
+
+            
             <!-- End sample -->
 
         </section>
