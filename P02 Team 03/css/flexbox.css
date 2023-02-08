@@ -17,6 +17,14 @@
     border-radius: 0 0 2rem 0;
 }
 
+.bottom-border-alt{
+    position: relative;
+    border-right: 0.5rem var(--yellow-accent) solid;
+    border-bottom: 0.5rem var(--yellow-accent) solid;
+    padding-top: 1rem;
+    border-radius: 0 0 2rem 0;
+}
+
 .left-border{
     position: relative;
     border-left: 0.5rem var(--yellow-accent) solid;
@@ -31,7 +39,7 @@
     border-top-color: var(--pink-accent);
 }
 
-.bottom-border-yellow{
+.border-yellow{
     padding-top: 0.1rem;
     padding-left: 0rem;
     border-top-width: 0.3rem;
