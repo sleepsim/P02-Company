@@ -192,3 +192,29 @@ input[type="text"]{
   color: white;
 }
 
+.main-nav{
+  z-index: 9999;
+  overflow: hidden;
+  background-color: var(--nav-color);
+  width: 80%;
+  top: 0; 
+  left: 0;
+  height: 4rem;
+  padding: 2rem;
+  padding-left: 4rem;
+  font-family: 'neon-desmon', Arial, sans-serif;
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  align-items: center;
+  flex-grow: 0;
+}
+
+.main-nav a {
+
+  text-align: center;
+  vertical-align: middle;
+}
