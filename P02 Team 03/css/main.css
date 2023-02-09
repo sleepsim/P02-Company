@@ -82,6 +82,45 @@ input[type="text"]{
   height: 3rem;
 }
 
+nav {
+  margin-bottom: 2rem;
+}
+
+footer{
+  /* Flex Box */
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 1.5rem;
+
+  /* Other */
+  /* overflow: hidden; */
+  background-color: var(--nav-color);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  min-height: 3rem;
+  padding: 2rem;
+  padding-left: 6rem;
+  font-family: 'neon-desmon', Arial, sans-serif;
+  font-weight: bold;
+  color: var(--yellow-accent);
+  filter: drop-shadow(0 0 0.4rem black);
+}
+
+footer h3{
+  text-shadow: 0 0 20px var(--yellow-accent),
+              0 0 30px var(--yellow-accent),
+              0 0 40px var(--yellow-accent); 
+}
+
+footer p{
+  font-weight: 100;
+}
+
+
 
 /* Custom Classes */
 
@@ -90,19 +129,19 @@ input[type="text"]{
 
 /* nav bar */
 .navbar {
-    z-index: 9999;
-    overflow: hidden;
-    background-color: var(--nav-color);
-    position: fixed; 
-    top: 0; 
-    left: 0;
-    height: 4rem;
-    width: 100%; 
-    padding: 2rem;
-    padding-left: 4rem;
-    font-family: 'neon-desmon', Arial, sans-serif;
-    font-weight: bold;
-  }
+  z-index: 9999;
+  overflow: hidden;
+  background-color: var(--nav-color);
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  height: 4rem;
+  width: 100%; 
+  padding: 2rem;
+  padding-left: 4rem;
+  font-family: 'neon-desmon', Arial, sans-serif;
+  font-weight: bold;
+}
   
 /* links */
 .navbar a {
@@ -128,7 +167,7 @@ input[type="text"]{
 }
 
 /* Main content */
-.main-body {
+.style-main-body {
   margin-top: 10rem;
   padding-left: 14rem;
   padding-right: 5rem;
@@ -202,7 +241,7 @@ input[type="text"]{
   z-index: 9999;
   overflow: hidden;
   background-color: var(--nav-color);
-  width: 80%;
+  width: 100%;
   top: 0; 
   left: 0;
   height: 4rem;
@@ -210,6 +249,7 @@ input[type="text"]{
   padding-left: 4rem;
   font-family: 'neon-desmon', Arial, sans-serif;
   font-weight: bold;
+  filter: drop-shadow(0 0 0.4rem black);
 
   display: flex;
   flex-direction: row;
@@ -220,9 +260,17 @@ input[type="text"]{
 }
 
 .main-nav a {
-
   text-align: center;
   vertical-align: middle;
+  text-shadow: 0 0 0px var(--yellow-accent),
+              0 0 10px var(--yellow-accent),
+              0 0 20px var(--yellow-accent); 
+}
+
+.main-nav a:hover, .main-nav a:focus{
+  text-shadow: 0 0 0px var(--pink-accent),
+              0 0 20px var(--pink-accent),
+              0 0 40px var(--pink-accent); 
 }
 
 .sidebar{
@@ -253,4 +301,12 @@ input[type="text"]{
   text-shadow: 0 0 0px var(--pink-accent),
               0 0 20px var(--pink-accent),
               0 0 40px var(--pink-accent); 
+}
+
+.main-body {
+  /* margin-top: rem; */
+  padding-left: 5rem;
+  padding-right: 5rem;
+  color: lightgray;
+  font-family: 'comfortaa';
 }
