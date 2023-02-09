@@ -8,7 +8,7 @@
   --teal-accent: rgb(0,234,234);
   --pink-accent: rgb(255, 16, 239);
 }
-
+ 
 body{
     font-family: sans-serif;
     background-color: var(--bg-color); 
