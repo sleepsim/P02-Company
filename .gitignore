@@ -19,6 +19,3 @@ bin-release/
 # information for Eclipse / Flash Builder.
 
 #Excluded files
-*.png
-*.jpg
-*.jpeg
