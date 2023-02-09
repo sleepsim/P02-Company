@@ -16,6 +16,7 @@ body{
 
 div{
   padding-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 section{
@@ -61,8 +62,20 @@ code{
 }
 
 input{
-  accent-color: var(--yellow-accent);
+  accent-color: var(--pink-accent);  
 }
+
+img{
+  max-width: 50%;
+}
+
+input[type="text"]{
+  background-color: rgb(70,57,79);
+  color: white;
+  width: 80%;
+  height: 3rem;
+}
+
 
 /* Custom Classes */
 
