@@ -99,7 +99,7 @@ footer{
   /* overflow: hidden; */
   background-color: var(--nav-color);
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
   min-height: 3rem;
   padding: 2rem;
