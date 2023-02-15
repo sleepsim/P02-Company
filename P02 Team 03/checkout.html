@@ -27,6 +27,39 @@
         <!-- Title -->
         <div class="top-border">
             <h1>**CHECKOUT - TEMPLATE LANDING PAGE**</h1>
+            <div class="top-border">
+                <h3>Total</h3>
+                <p>$25.99</p>
+                <h3>How much would you like to tip the driver</h3>
+                    <select name="amount" id="gratuity">
+                        <option value="1">10%</option>
+                        <option value="2">12%</option>
+                        <option value="3">15%</option>
+                        <option value="4">18%</option>
+                        <option value="4">None</option>
+                </select>
+                <br><br>
+                <input type="radio" id="delivery" name="deliveryop" value="deliveryoption">
+                <label for="deliveryop">Delivery</label>
+                <input type="radio" id="pickup" name="deliveryop" value="deliveryoption">
+                <label for="deliveryop">Pick-up</label><br><br>
+                <label for="card_name">Name On Card</label><br>
+                <input type="text" id="card_name" name="cardnname" class="input-text"><br>
+                <label for="address">Address Line</label><br>
+                <input type="text" id="address" name="adddress" class="input-text"><br>
+                <label for="phone_number">Phone Number</label><br>
+                <input type="text" id="phone_number" name="phonenumber" class="input-text"><br>
+                <label for="card_number">Card Number</label><br>
+                <input type="text" id="card_number" name="cardnumber" class="input-text"><br> 
+                <label for="card_number">CVC</label><br>
+                <input type="text" id="cvc" name="cvc" class="input-text"><br><br>
+                <input type="checkbox" id="bill-ship">
+                <label for="bill-ship">Shipping same as billing address </label><br><br>
+                <h3>Additional Instructions For Driver</h3>
+                <input type="text"><br><br>
+                <input type="submit" class="button-yellow" value="Order">
+                <div class="bottom-border"></div>
+            </div>
         </div>
 
 
