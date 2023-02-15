@@ -310,3 +310,7 @@ footer p{
   color: lightgray;
   font-family: 'comfortaa';
 }
+
+.about-us-text{
+  max-width: 30%;
+}
