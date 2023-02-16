@@ -74,3 +74,9 @@
     padding: 1rem;
 }
 
+.contact-flex-item{ /* For Footer Items*/
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
