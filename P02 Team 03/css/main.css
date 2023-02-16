@@ -99,7 +99,7 @@ footer{
   /* overflow: hidden; */
   background-color: var(--nav-color);
   width: 100%;
-  position: absolute;
+  position: relative;
   bottom: 0;
   min-height: 3rem;
   padding: 2rem;
@@ -309,4 +309,8 @@ footer p{
   padding-right: 5rem;
   color: lightgray;
   font-family: 'comfortaa';
+}
+
+.about-us-text{
+  max-width: 30%;
 }
