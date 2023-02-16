@@ -80,3 +80,14 @@
     justify-content: center;
 }
 
+.menu-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.5rem;
+}
+
+.menu-item{
+    flex: 1;
+}
