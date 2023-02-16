@@ -98,7 +98,7 @@ footer{
   /* Other */
   /* overflow: hidden; */
   background-color: var(--nav-color);
-  width: 100%;
+  /* width: 100%; */
   position: relative;
   bottom: 0;
   min-height: 3rem;
@@ -241,7 +241,7 @@ footer p{
   z-index: 9999;
   overflow: hidden;
   background-color: var(--nav-color);
-  width: 100%;
+  /* width: 100%; */
   top: 0; 
   left: 0;
   height: 4rem;
