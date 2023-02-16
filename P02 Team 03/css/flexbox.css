@@ -88,6 +88,16 @@
     gap: 1.5rem;
 }
 
+.menu-container > div{
+    width: 20rem;
+    /* background-color: white; */
+    text-align:  center;
+}
+
+.menu-img{
+    max-width: 100%;
+}
+
 .menu-item{
     flex: 1;
 }
