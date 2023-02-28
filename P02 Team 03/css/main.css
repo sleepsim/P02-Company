@@ -259,6 +259,30 @@ footer p{
   flex-grow: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    z-index: 9999;
+    overflow: hidden;
+    background-color: var(--nav-color);
+    /* width: 100%; */
+    top: 0; 
+    left: 0;
+    height: 4rem;
+    padding: 2rem;
+    padding-left: 4rem;
+    font-family: 'neon-desmon', Arial, sans-serif;
+    font-weight: bold;
+    filter: drop-shadow(0 0 0.4rem black);
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+    flex-grow: 0;
+  }
+}
+
 .main-nav a {
   text-align: center;
   vertical-align: middle;
