@@ -200,6 +200,11 @@ footer p{
   background-color: rgb(255, 255, 0, 0.5);
 }
 
+.button-yellow:active{
+  vertical-align: top;
+  font-size: smaller;
+}
+
 .button-pink{
   display: inline-block;
   padding: 0.5rem;
