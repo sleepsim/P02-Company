@@ -60,6 +60,10 @@ a:hover, a:focus{
               0 0 40px var(--pink-accent); 
 }
 
+.menu-img:hover {
+  opacity: .5;
+}
+
 code{
   background-color: rgb(70,57,79);
   padding: 0.5rem;
