@@ -342,3 +342,7 @@ footer p{
 .about-us-text{
   max-width: 45%;
 }
+
+.img-big{
+  max-width: 100%;
+}
