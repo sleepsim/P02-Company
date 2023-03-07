@@ -1,0 +1,23 @@
+/* We decided to add bootstrap for the main page carousel js 
+     
+    However, we ran into issues with bootstrap messing with the styling 
+    This CSS page addresses those styling issues but will only be applied to main page 
+*/ 
+ 
+ 
+ 
+/* Get rid of annoying bootstrap styling*/ 
+*{ 
+    box-sizing: initial !important; 
+    font-size: initial !important; 
+} 
+
+div{
+    padding-left: 0;
+}
+
+img{
+    max-height: 30rem;
+    width: 100%;
+    overflow: hidden;
+}
