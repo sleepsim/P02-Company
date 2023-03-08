@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>P02 Style Guide</title>
     <meta charset="utf-8">
@@ -13,7 +13,7 @@
     <!-- Navigation bar -->
     <header>
         <div class="sidebar">
-            <a href=""><img src="assets/glow-in-the-dough-textless.png"></a>
+            <a href=""><img src="assets/glow-in-the-dough-textless.png" alt="Glow in The Dough logo"></a>
             <a href="#brand_identity">BRAND IDENTITY</a>
             <a href="#interactive_elements">INTERACTIVE ELEMENTS</a>
             <a href="#combined_elements">COMBINED ELEMENTS</a>
@@ -44,9 +44,9 @@
 
             <!-- Logo -->
             <h3>Logo</h2>
-            <img src="assets/glow-in-the-dough.png"><br>
+            <img src="assets/glow-in-the-dough.png" alt="Glow in The Dough logo with text"><br>
             <caption>Main Logo</caption><br>
-            <img src="assets/glow-in-the-dough-textless.png"><br>
+            <img src="assets/glow-in-the-dough-textless.png" alt="Glow in The Dough logo"><br>
             <caption>Alternate Logo without text</caption>
             
             <div class="bottom-border-pink"></div>
@@ -387,7 +387,7 @@
             <div class="flex-item">
                 <div class="top-border">
                     <div class="main-nav">
-                        <a href="" style="max-width: 15%;"><img src="assets/glow-in-the-dough-textless.png"></a>
+                        <a href="" style="max-width: 15%;"><img src="assets/glow-in-the-dough-textless.png" alt="Glow in The Dough logo"></a>
                         <a href="">Order</a>
                         <a href="">Menu</a>
                         <a href="">Home</a>
@@ -528,18 +528,33 @@
                         </code>
                     </div>
 
-                </div>
+                </div> 
 
                 <!-- Render -->
                 <h4>Rendered Element</h4>
                 <div class="top-border">
-                    <h2>Glow-in-The-Dough House Special</h2>
-
+                    <h2>Build Your Own</h2>
+        
                     <div class="flex-container">
                         <div class="flex-item">
-                            <img src="assets/glow-in-the-dough-textless.png" style="max-width: 100%;">
+                            <img src="assets/glow-in-the-dough-textless.png" style="max-width: 100%;" alt="Glow in The Dough company logo">
                         </div>
                         <div class="flex-item">
+                            <h3>Description</h3>
+                            <p>Build your own Glow-in-the-Dough Pizza!</p>
+                            <div class="rate">
+                                <input type="radio" id="star5" name="rate" value="5" />
+                                <label for="star5" title="text">5 stars</label>
+                                <input type="radio" id="star4" name="rate" value="4" />
+                                <label for="star4" title="text">4 stars</label>
+                                <input type="radio" id="star3" name="rate" value="3" />
+                                <label for="star3" title="text">3 stars</label>
+                                <input type="radio" id="star2" name="rate" value="2" />
+                                <label for="star2" title="text">2 stars</label>
+                                <input type="radio" id="star1" name="rate" value="1" />
+                                <label for="star1" title="text">1 star</label>
+                              </div>
+                              <br><br><br><br>
                             <h3>Size</h3>
                             <input type="radio" id="op1" name="size">
                             <label for="op1">12"</label>
@@ -547,9 +562,9 @@
                             <label for="op2">15"</label>
                             <input type="radio" id="op3" name="size">
                             <label for="op3">18"</label>
-
+        
                             <div class="bottom-border-pink"></div>
-
+        
                             <h3>Sauce</h3>
                             <input type="radio" id="sauceop1" name="sauceop">
                             <label for="sauceop1">Default (Pizza Sauce)</label><br>
@@ -559,9 +574,17 @@
                             <label for="cheese">Garlic Parm</label><br>
                             <input type="radio" id="sauceop4" name="sauceop">
                             <label for="cheese">No Sauce*</label><br>
-
+        
                             <div class="bottom-border-pink"></div>
-
+        
+                            
+                            <h3>Crust</h3>
+                            <input type="radio" id="crustop1" name="crustop">
+                            <label for="crustop1">Regular Pan</label><br>
+                            <input type="radio" id="crustop2" name="crustop">
+                            <label for="crustop2">Thin Crust</label><br>
+                            <div class="bottom-border-pink"></div>
+        
                             <h3>Extra Toppings</h3>
                             <input type="checkbox" name="Pepperoni"> 
                             <label for="Pepperoni">Pepperoni</label><br>
@@ -573,13 +596,13 @@
                             <label for="Chicken">Chicken</label><br>
                             <input type="checkbox" name="Ham"> 
                             <label for="Ham">Ham</label>
-
+        
                             <div class="bottom-border-pink"></div>
                             <h3>Additional Instructions</h3>
                             <input type="text"><br><br>
-
-                            <input type="submit" class="button-yellow" value="Add to Cart">
-
+        
+                            <input type="submit" class="button-yellow" value="Add to Cart" onclick="cartAlert()">
+        
                         </div>
                     </div>
                     <div class="bottom-border"></div>
@@ -611,6 +634,7 @@
                     <li>Text Glow generator used <a href="https://unused-css.com/tools/text-shadow-generator">URL</a></li>
                     <li>Gelato Luxe font from Adobe Fonts. Retrieved from <a href="https://fonts.adobe.com/fonts/gelato-luxe">URL</a></li>
                     <li>5 star rating with css and html. Retrieved from <a href="https://codepen.io/hesguru/pen/BaybqXv">URL</a></li>
+                    <li>BD Geminis font from Abode Fonts. Retrieved from <a href="https://fonts.adobe.com/fonts/bd-geminis#fonts-section">URL</a></li>
                     <li>.....And other things learned from lecture/labs</li>
                   </ul>
             </div>
