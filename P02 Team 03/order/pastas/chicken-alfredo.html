@@ -34,23 +34,11 @@
             <div class="flex-container">
                 <div class="flex-item">
                     <img src="../../assets/ca-pasta.jpg" alt="Chicken alfredo pasta" style="max-width: 100%;">
+                    
                 </div>
                 <div class="flex-item">
                     <h3>Description</h3>
                     <p>Our creamy alfredo sauce top with a pan seared chicken breast, topped with parmesan cheese</p>
-                    <div class="rate">
-                        <input type="radio" id="star5" name="rate" value="5" />
-                        <label for="star5" title="text">5 stars</label>
-                        <input type="radio" id="star4" name="rate" value="4" />
-                        <label for="star4" title="text">4 stars</label>
-                        <input type="radio" id="star3" name="rate" value="3" />
-                        <label for="star3" title="text">3 stars</label>
-                        <input type="radio" id="star2" name="rate" value="2" />
-                        <label for="star2" title="text">2 stars</label>
-                        <input type="radio" id="star1" name="rate" value="1" />
-                        <label for="star1" title="text">1 star</label>
-                      </div>
-                      <br><br><br><br>
                     <h3>Size</h3>
                     <input type="radio" id="op1" name="size">
                     <label for="op1">Small</label>
@@ -78,12 +66,42 @@
 
                     <div class="bottom-border-pink"></div>
                     <h3>Additional Instructions</h3>
-                    <input type="text"><br><br>
+
+                    <textarea></textarea><br><br>
 
                     <input type="submit" class="button-yellow" value="Add to Cart" onclick="cartAlert()">
 
                 </div>
             </div>
+
+            <div class="center">
+
+                <!-- <div class="flex-grow-1"></div> -->
+
+                <div class="flex-grow-1">
+                    <h3>Reviews (34)</h3>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star-fill"></i>
+                        <i class="bi-star"></i>
+                        <br>
+                        <h3>Leave a review</h3>
+                        <select name="review" id="review">
+                            <option value="5">5 Stars</option>
+                            <option value="4">4 Stars</option>
+                            <option value="3">3 Stars</option>
+                            <option value="2">2 Stars</option>
+                            <option value="1">1 Star</option>
+                        </select><br><br>
+                        <textarea class="width-100"></textarea><br><br>
+                        <input type="submit" class="button-pink" value="Submit Review" onclick="reviewAlert()">
+                    </div>
+
+                    <!-- <div class="flex-grow-1"></div> -->
+
+            </div>
+
             <div class="bottom-border"></div>
         </div>
 

@@ -101,3 +101,19 @@
 .menu-item{
     flex: 1;
 }
+
+.flex-centered{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-grow-1{
+    flex-grow: 1;
+}
+
+.center {
+    margin: auto;
+    width: 70%;
+    border-top: 0.1rem solid var(--yellow-accent);
+    padding: 10px;
+}
