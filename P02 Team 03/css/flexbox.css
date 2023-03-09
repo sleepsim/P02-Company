@@ -55,6 +55,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
+    align-items: center;
     gap: 1.5rem;
 
 }
@@ -125,7 +126,7 @@
 
 .map-responsive{
     overflow:hidden;
-    padding-bottom:60.25%;
+    padding-bottom:50%;
     position:relative;
     height:0;
     margin-top: 5rem;
@@ -134,10 +135,10 @@
 
 .map-responsive iframe{
 
-    left:0;
+    left: 5rem;
     top:0;
     height:100%;
-    width:80%;
+    width:70%;
     position:absolute;
 
 }
