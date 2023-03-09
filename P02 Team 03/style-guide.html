@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/flexbox.css"/>
     <link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 
 <body>
     <!-- Navigation bar -->
     <header>
         <div class="sidebar">
-            <a href=""><img src="assets/glow-in-the-dough-textless.png" alt="Glow in The Dough logo"></a>
+            <a href="index.html"><img src="assets/glow-in-the-dough-textless.png" alt="Glow in The Dough logo"></a>
             <a href="#brand_identity">BRAND IDENTITY</a>
             <a href="#interactive_elements">INTERACTIVE ELEMENTS</a>
             <a href="#combined_elements">COMBINED ELEMENTS</a>
             <a href="#citations">CITATIONS & SOURCES</a>
+            <a href="index.html">BACK TO WEBSITE</a>
         </div>
     </header>
 
@@ -542,19 +544,7 @@
                         <div class="flex-item">
                             <h3>Description</h3>
                             <p>Build your own Glow-in-the-Dough Pizza!</p>
-                            <div class="rate">
-                                <input type="radio" id="star5" name="rate" value="5" />
-                                <label for="star5" title="text">5 stars</label>
-                                <input type="radio" id="star4" name="rate" value="4" />
-                                <label for="star4" title="text">4 stars</label>
-                                <input type="radio" id="star3" name="rate" value="3" />
-                                <label for="star3" title="text">3 stars</label>
-                                <input type="radio" id="star2" name="rate" value="2" />
-                                <label for="star2" title="text">2 stars</label>
-                                <input type="radio" id="star1" name="rate" value="1" />
-                                <label for="star1" title="text">1 star</label>
-                              </div>
-                              <br><br><br><br>
+                            
                             <h3>Size</h3>
                             <input type="radio" id="op1" name="size">
                             <label for="op1">12"</label>
@@ -602,8 +592,37 @@
                             <input type="text"><br><br>
         
                             <input type="submit" class="button-yellow" value="Add to Cart" onclick="cartAlert()">
-        
+
                         </div>
+
+                    </div>
+
+                    <div class="center">
+
+                        <!-- <div class="flex-grow-1"></div> -->
+        
+                        <div class="flex-grow-1">
+                            <h3>Reviews (14)</h3>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star"></i>
+                                <br>
+                                <h3>Leave a review</h3>
+                                <select name="review" id="review">
+                                    <option value="5">5 Stars</option>
+                                    <option value="4">4 Stars</option>
+                                    <option value="3">3 Stars</option>
+                                    <option value="2">2 Stars</option>
+                                    <option value="1">1 Star</option>
+                                </select><br><br>
+                                <textarea class="width-100"></textarea><br><br>
+                                <input type="submit" class="button-pink" value="Submit Review" onclick="reviewAlert()">
+                            </div>
+        
+                            <!-- <div class="flex-grow-1"></div> -->
+        
                     </div>
                     <div class="bottom-border"></div>
                 </div>
@@ -623,6 +642,7 @@
                     <li>W3Schools. CSS shapes <a href="  https://www.w3schools.com/howto/howto_css_shapes.asp">URL</a></li>
                     <li>W3Schools. CSS Links <a href="  https://www.w3schools.com/css/css_link.asp">URL</a></li>
                     <li>W3Schools. HTML Forms <a href="https://www.w3schools.com/html/html_form_input_types.asp">URL</a></li>
+                    <li>W3Schools. Textarea <a href="https://www.w3schools.com/tags/tag_textarea.asp">URL</a></li>
                     <li>lipsum. Lorem Ipsum generator used for paragraphs <a href="https://www.lipsum.com/feed/html">URL</a></li>
                     <li>W3Schools. HTML ordered lists<a href="https://www.w3schools.com/html/html_lists_ordered.asp"> URL</a></li>
                     <li>Formula 1. Monaco Circuit track map. Retrieved from <a href="https://www.formula1.com/en/information.monaco-circuit-de-monaco-monte-carlo.2ZWRtIcSI6ZzVGX1uGRpkJ.html">URL</a></li>
@@ -634,7 +654,9 @@
                     <li>Text Glow generator used <a href="https://unused-css.com/tools/text-shadow-generator">URL</a></li>
                     <li>Gelato Luxe font from Adobe Fonts. Retrieved from <a href="https://fonts.adobe.com/fonts/gelato-luxe">URL</a></li>
                     <li>5 star rating with css and html. Retrieved from <a href="https://codepen.io/hesguru/pen/BaybqXv">URL</a></li>
+                    <li>Bootstrap Carousel. W3Schools. <a href="https://www.w3schools.com/bootstrap/bootstrap_carousel.asp">URL</a></li>
                     <li>BD Geminis font from Abode Fonts. Retrieved from <a href="https://fonts.adobe.com/fonts/bd-geminis#fonts-section">URL</a></li>
+                    <li>Icons from Bootstrap <a href="https://icons.getbootstrap.com/">URL</a></li>
                     <li>.....And other things learned from lecture/labs</li>
                   </ul>
             </div>
