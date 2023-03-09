@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>P02 Style Guide</title>
     <meta charset="utf-8">
@@ -14,7 +14,7 @@
 <body>
     <!-- Navigation -->
     <nav class="main-nav">
-        <a href="../../index.html" style="max-width: 15%;"><img src="../../assets/glow-in-the-dough-textless.png"></a>
+        <a href="../../index.html" style="max-width: 15%;"><img src="../../assets/glow-in-the-dough-textless.png" alt="Glow in The Dough logo"></a>
         <a href="../../order.html">ORDER</a>
         <a href="../../about-us.html">ABOUT US</a>
         <a href="../../contact.html">CONTACT</a>
@@ -31,11 +31,24 @@
 
             <div class="flex-container">
                 <div class="flex-item">
-                    <img src="../../assets/pep-pizza.jpg" style="max-width: 100%;">
+                    <img src="../../assets/pep-pizza.jpg" alt="pepperoni pizza" style="max-width: 100%;">
                 </div>
                 <div class="flex-item">
                     <h3>Description</h3>
                     <p>Our classic pepporoni pizza with marinara sauce and homemade pepperonis</p>
+                    <div class="rate">
+                        <input type="radio" id="star5" name="rate" value="5" />
+                        <label for="star5" title="text">5 stars</label>
+                        <input type="radio" id="star4" name="rate" value="4" />
+                        <label for="star4" title="text">4 stars</label>
+                        <input type="radio" id="star3" name="rate" value="3" />
+                        <label for="star3" title="text">3 stars</label>
+                        <input type="radio" id="star2" name="rate" value="2" />
+                        <label for="star2" title="text">2 stars</label>
+                        <input type="radio" id="star1" name="rate" value="1" />
+                        <label for="star1" title="text">1 star</label>
+                      </div>
+                      <br><br><br><br>
                     <h3>Size</h3>
                     <input type="radio" id="op1" name="size">
                     <label for="op1">12"</label>

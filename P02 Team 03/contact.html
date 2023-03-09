@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>P02 Style Guide</title>
     <meta charset="utf-8">
@@ -13,7 +13,7 @@
 <body>
     <!-- Navigation -->
     <nav class="main-nav">
-        <a href="index.html" style="max-width: 15%;"><img src="assets/glow-in-the-dough-textless.png"></a>
+        <a href="index.html" style="max-width: 15%;"><img src="assets/glow-in-the-dough-textless.png" alt="Glow in The Dough logo"></a>
         <a href="order.html">ORDER</a>
         <a href="about-us.html">ABOUT US</a>
         <a href="contact.html">CONTACT</a>
@@ -27,15 +27,13 @@
         
         <div class="top-border">
             <h1>Get in Touch</h1>
-            
             <div class="contact-flex-item">
                 <h3>Contact Us</h3>
                 <p>778-000-1234</p>
                 <p>glo-dough@gmail.com</p>
                 <i class="bi-facebook"></i>
                 <i class="bi-twitter"></i>
-                <i class="bi-instagram"></i>
-                
+                <i class="bi-instagram"></i>       
             </div>
             <div class="contact-flex-item">
                 <h3>Store Location</h3>
@@ -43,22 +41,27 @@
                 <p>Surrey, B.C.</p>
                 <p>VVV 123</p>
             </div>
-            <br><br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41672.35240824925!2d-123.0944846821559!3d49.24755070271992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1677736042298!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
-            <label for="first_name">First Name</label><br>
-            <input type="text" id="contact_name" name="firstname" class="input-text"><br><br>
-            <label for="last_name">Last Name</label><br>
-            <input type="text" id="contact_surname" name="lastname" class="input-text"><br><br>
-            <label for="email">Email</label><br>
-            <input type="text" id="contact_email" name="email" class="input-text"><br><br>
-            <label for="subject">Subject</label><br>
-            <input type="text" id="contact_subject" name="contactsub" class="input-text"><br> <br>
-            <label for="card_number">Message</label><br>
-            <input type="text" id="contact_msg" name="msg" class="input-text"><br><br>
-            <input type="checkbox" id="bill-ship">
-            <label for="bill-ship"> Submit anonymously </label><br><br>
-            <input type="submit" class="button-yellow" value="Submit">
-            <h2>Thank you for the feedback!</h2>
+            <div class="flex-container">
+            <div class="flex-item"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41672.35240824925!2d-123.0944846821559!3d49.24755070271992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1677736042298!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="flex-item">
+                <label for="first_name">First Name</label><br>
+                <input type="text" id="contact_name" name="firstname" class="input-text"><br><br>
+                <label for="last_name">Last Name</label><br>
+                <input type="text" id="contact_surname" name="lastname" class="input-text"><br><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="contact_email" name="email" class="input-text"><br><br>
+                <label for="subject">Subject</label><br>
+                <input type="text" id="contact_subject" name="contactsub" class="input-text"><br> <br>
+                <label for="card_number">Message</label><br>
+                <input type="text" id="contact_msg" name="msg" class="input-text"><br><br>
+                <input type="checkbox" id="bill-ship">
+                <label for="bill-ship"> Submit anonymously </label><br><br>
+                <input type="submit" class="button-yellow" value="Submit">
+                <h2>Thank you for the feedback!</h2>
+            </div>
+            </div>
             <div class="bottom-border"></div>
             
         </div>
