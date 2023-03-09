@@ -56,12 +56,11 @@
     flex-wrap: nowrap;
     justify-content: center;
     gap: 1.5rem;
+
 }
 
 .flex-item{ /* For basic flex needs*/
     flex: 1;
-    align-items: center;
-    justify-content: center;
 }
 
 .footer-flex-item{ /* For Footer Items*/
@@ -115,5 +114,30 @@
     margin: auto;
     width: 70%;
     border-top: 0.1rem solid var(--yellow-accent);
-    padding: 10px;
+    padding: 2rem;
+}
+
+.center-2{
+    margin: auto;
+    width: 70%;
+    padding: 2rem;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:60.25%;
+    position:relative;
+    height:0;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.map-responsive iframe{
+
+    left:0;
+    top:0;
+    height:100%;
+    width:80%;
+    position:absolute;
+
 }
