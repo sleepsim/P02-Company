@@ -120,6 +120,11 @@ footer h3{
               0 0 40px var(--yellow-accent); 
 }
 
+footer a{
+  display: block;
+  font-weight: lighter;
+}
+
 footer p{
   font-weight: 100;
 }
