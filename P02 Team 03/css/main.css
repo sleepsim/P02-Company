@@ -351,3 +351,7 @@ footer p{
 .img-big{
   max-width: 100%;
 }
+
+.button-large{
+  height: 20rem;
+}
