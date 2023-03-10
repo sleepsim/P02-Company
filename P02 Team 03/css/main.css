@@ -367,6 +367,9 @@ textarea{
 }
 
 .button-large{
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   height: 3rem;
 }
 
